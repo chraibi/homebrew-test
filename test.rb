@@ -1,4 +1,4 @@
-class test < Formula
+class Test < Formula
   desc "A graphical user interface to create the geometry of a scenario simulated by JuPedSim"
   homepage "https://www.jupedsim.org/"
   head "https://github.com/chraibi/homebrew-test.git"
