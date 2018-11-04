@@ -10,8 +10,8 @@ class Test < Formula
     Dir.mkdir "build"
     Dir.chdir "build"
     system "cmake", "..", "-DCMAKE_BUILD_TYPE=Release"
-    system "make"
-    bin.install "testexe"
+    system "make", "install"
+    #bin.install "testexe"
     #bin.install_symlink bin/ => "protoc-gen-objcgrpc"
   end
 end
