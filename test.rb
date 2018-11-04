@@ -12,7 +12,7 @@ class Test < Formula
     system "cmake", "..", "-DCMAKE_BUILD_TYPE=Release"
     # system "make", "install"
     system "make"
-    bin.install "test"
+    bin.install "testexe"
     #bin.install_symlink bin/ => "protoc-gen-objcgrpc"
   end
 end
